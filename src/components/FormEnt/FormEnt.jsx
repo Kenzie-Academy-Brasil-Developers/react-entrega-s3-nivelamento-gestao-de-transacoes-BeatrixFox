@@ -19,23 +19,27 @@ function FormEnt({ entryList, setEntryList, transactions, setTransactions }) {
 
   return (
     <div className="Form-section">
+      <h4>Digite as entradas</h4>
       <input
         type="text"
         value={nameFruit}
         onChange={(event) => setNameFruit(event.target.value)}
         className="Form-input"
+        placeholder="Name"
       />
       <input
         type="text"
         value={quantity}
         onChange={(event) => setQuantity(event.target.value)}
         className="Form-input"
+        placeholder="Quantity"
       />
       <input
         type="text"
         value={price}
         onChange={(event) => setPrice(event.target.value)}
         className="Form-input"
+        placeholder="Price"
       />
       <button
         className="Form-button"

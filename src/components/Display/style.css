@@ -1,0 +1,21 @@
+button {
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+  border: 4px solid transparent;
+  font-weight: bold;
+  padding: 5px;
+}
+button:hover {
+  background-color: steelblue;
+  border: 4px solid darkgreen;
+}
+.display {
+  background: rgb(0, 10, 10);
+  background: linear-gradient(
+    309deg,
+    rgba(0, 10, 10, 1) 0%,
+    rgba(27, 107, 92, 1) 50%,
+    rgba(103, 68, 172, 1) 100%
+  );
+}

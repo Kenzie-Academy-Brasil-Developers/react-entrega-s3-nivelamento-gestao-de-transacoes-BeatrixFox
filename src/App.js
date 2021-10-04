@@ -20,18 +20,20 @@ function App() {
   return (
     <div className="App">
       <main className="App-header">
-        <FormEnt
-          entryList={entryList}
-          setEntryList={setEntryList}
-          transactions={transactions}
-          setTransactions={setTransactions}
-        />
-        <FormExit
-          exitList={exitList}
-          setExitList={setExitList}
-          transactions={transactions}
-          setTransactions={setTransactions}
-        />
+        <section>
+          <FormEnt
+            entryList={entryList}
+            setEntryList={setEntryList}
+            transactions={transactions}
+            setTransactions={setTransactions}
+          />
+          <FormExit
+            exitList={exitList}
+            setExitList={setExitList}
+            transactions={transactions}
+            setTransactions={setTransactions}
+          />
+        </section>
         <Display
           entryList={entryList}
           exitList={exitList}

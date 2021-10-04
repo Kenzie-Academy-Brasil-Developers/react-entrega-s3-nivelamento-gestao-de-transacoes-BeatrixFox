@@ -1,0 +1,8 @@
+.Form-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: navy;
+  margin: 20px auto;
+  padding: 5px;
+}
