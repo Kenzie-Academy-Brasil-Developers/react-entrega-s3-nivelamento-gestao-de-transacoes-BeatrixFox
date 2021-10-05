@@ -30,7 +30,7 @@ function FormExit({ exitList, setExitList, transactions, setTransactions }) {
       <input
         type="text"
         value={quantity}
-        onChange={(event) => setQuantity(Number(event.target.value) * -1)}
+        onChange={(event) => setQuantity(event.target.value)}
         className="Form-input"
         placeholder="Quantity"
       />
