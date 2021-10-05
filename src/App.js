@@ -1,6 +1,6 @@
 import "./App.css";
 import Display from "./components/Display/Display";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import FormEnt from "./components/FormEnt/FormEnt";
 import FormExit from "./components/FormExit/FormExit";
 
